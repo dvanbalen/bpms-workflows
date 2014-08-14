@@ -7,6 +7,13 @@
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>Workflows</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.redhat.consulting</groupId>
+      <artifactId>bpms-rest-domain</artifactId>
+      <version>1.5</version>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
